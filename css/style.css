@@ -127,11 +127,12 @@ img {
 	width: 304px;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
-	border-right-color: transparent;
+	border-right-color: #2ecc71;
 	height: 56px;
 	color: #222222;
 	font-size: 22px;
 	padding-left: 25px;
+	vertical-align: middle;
 }
 .notify {
 	height: 56px;
@@ -144,6 +145,7 @@ img {
 	border-bottom-right-radius: 15px;
 	background-color: #2ecc71;
 	border: transparent;
+	vertical-align: middle;
 
 }
 .row-notified {
