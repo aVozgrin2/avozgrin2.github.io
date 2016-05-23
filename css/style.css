@@ -13,6 +13,7 @@ img {
 .top {
 	border-top: 10px solid #2ecc71;
 	background-image: url(../src/header-bg.png);
+	background-repeat: no-repeat;
 	background-position: center top;
 }
 .top-top {
@@ -224,6 +225,7 @@ img {
 	}
 	.hand {
 		right: 0;
+		margin-right: -70px;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -234,7 +236,7 @@ img {
 		background-position:left top;
 	}
 	.hand {
-
+		margin-right: -200px;
 		bottom: -55px;
 	}
 	.row-header {
