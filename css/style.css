@@ -1,0 +1,261 @@
+body {
+	background-color: #ffffff;
+	color: #ffffff;
+}
+img {
+	max-width: 100%;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, 
+.btn.focus, .btn.focus:active, .btn.active.focus {
+    outline: none;
+    color: #ffffff;
+  }
+.top {
+	border-top: 10px solid #2ecc71;
+	background-image: url(../src/header-bg.png);
+	background-position: center top;
+}
+.top-top {
+	position: relative;
+}
+.hand {
+	position: absolute;
+	bottom: 0;
+	right: 5%;
+	height: 506px;
+	width: 439px;
+	background-image: url(../src/hand.png);
+	background-repeat: no-repeat;
+}
+.row-header {
+	margin: 169px 0;
+}
+.header {
+	padding-left: 114px;
+	width: 50%;
+}
+.header-title {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	margin: 26px 0;
+}
+.header-logo {
+	font-family: 'Pacifico', sans-serif;
+	font-size: 60px;
+}
+.dot-color {
+	color: #2ecc71;
+}
+.header-login {
+
+}
+.btn-login {
+	height: 53px;
+	width: 53px;
+	border-radius: 100%;
+	background-color: #000000;
+	opacity: 0.6;
+	font-size: 26px;
+	margin: 7px;
+	display: inline-block;
+}
+.btn-login:hover {
+	opacity: 1;
+	color: #ffffff;
+	background-color: #2ecc71;
+}
+.function {
+	margin: 60px 0;
+}
+.function-icon {
+	height: 98px;
+	width: 98px;
+	background-color: #2ecc71;
+	border-radius: 100%;
+	margin: 0 auto;
+	background-image: url(../src/icons.png);
+	background-repeat: no-repeat;
+}
+.function-title {
+	font-style: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #222222;
+	text-align: center;
+	margin: 25px 0;
+}
+.function-description {
+	color: #848484;
+	line-height: 26px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+.icon-1 {
+	background-position: -319px -112px;
+}
+.icon-2 {
+	background-position: -749px -112px;
+}
+.icon-3 {
+	background-position: -1179px -114px;
+}
+.center {
+	background-color: #e3e3e3;
+}
+.get-notified {
+	display: inline-block;
+}
+.get-title {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 22px;
+	color: #222222;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.get-description {
+	color: #848484;
+	line-height: 26px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.email {
+	border: 1px solid #c8c8c8;
+	width: 304px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-right-color: transparent;
+	height: 56px;
+	color: #222222;
+	font-size: 22px;
+	padding-left: 25px;
+}
+.notify {
+	height: 56px;
+	width: 141px;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #2ecc71;
+	border: transparent;
+
+}
+.row-notified {
+	padding: 60px 0;
+}
+.form-group {
+	;
+}
+.get-video {
+}
+.video {
+	max-height: 307px;
+	max-width: 500px;
+	float: right;
+}
+#bottom {
+	margin-top: 47px;
+}
+.quote {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	color: #848484;
+	text-align: center;
+	padding: 0 10%;
+	line-height: 31px;
+	padding: 13px 0;
+}
+.autor {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #2e2e2e;
+	text-align: center;
+	padding: 13px 0;
+}
+.photos {
+	
+}
+.photo {
+	height: 50px;
+	width: 50px;
+	margin: 2.5px;
+	display:block;
+	background-image: url(../src/face-sprites.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	background-color: red;
+	float: left;
+}
+.photo-1 {
+	background-position: -274px -114px;
+}
+@media screen and (max-width:992px) {
+	.video {
+		float: none;
+		margin: 0 auto;
+	}
+	.get-notified {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.email {
+		max-width: 305px;
+		width: 68.38565022421525%;
+	}
+	.notify {
+		max-width: 141px;
+		width: 31.61434977578475%;
+	}
+	.top {
+		position: relative;
+	}
+	.top-top {
+		position: unset;
+	}
+	.header {
+		padding: 0;
+	}
+	.hand {
+		right: 0;
+		margin-right: -70px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.function {
+		margin: 30px 0;
+	}
+	.top {
+		background-position:left top;
+	}
+	.hand {
+		margin-right: -200px;
+		bottom: -55px;
+	}
+	.row-header {
+		margin: 130px 0;
+	}
+	.header {
+		width: 50%;
+		
+	}
+
+}
+@media screen and (max-width: 480px) {
+	.row-header {
+		margin: 70px 0;
+	}
+	.header {
+		width: 100%;
+		text-align: center;
+	}
+	.hand {
+		display: none;
+	}
+}
