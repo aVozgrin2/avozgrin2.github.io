@@ -5,6 +5,11 @@ body {
 img {
 	max-width: 100%;
 }
+a{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
 .btn:focus, .btn:active:focus, .btn.active:focus, 
 .btn.focus, .btn.focus:active, .btn.active.focus {
     outline: none;
@@ -189,22 +194,57 @@ img {
 	text-align: center;
 	padding: 13px 0;
 }
-.photos {
-	
-}
-.photo {
-	height: 50px;
-	width: 50px;
-	margin: 2.5px;
-	display:block;
-	background-image: url(../src/face-sprites.png);
-	background-repeat: no-repeat;
+.say {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	color: #000000;
 	text-align: center;
-	background-color: red;
-	float: left;
+	font-weight: 600;
+	padding: 21px 0;
 }
-.photo-1 {
-	background-position: -274px -114px;
+.say-lorem {
+	font-family:'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #848484;
+	text-align: center;
+}
+.social {
+	margin: 26px 0 60px;
+}
+.form-social {
+	text-align: center;
+}
+.btn-social {
+	height: 34px;
+	width: 34px;
+	margin: 5px;
+	border-radius: 100%;
+	padding: 0;
+	font-size: 20px;
+	text-align: center;
+	transition: all 400ms ease;
+	display: inline-block;
+}
+.btn-social:hover {
+	color: #ffffff;
+	background-color: #2ecc71;
+}
+.row-footer {
+	background-color: #e3e3e3;
+}
+.footer {
+	padding: 0;
+	text-align: center;
+	margin: 43px 0 35px;
+}
+.footer-url {
+	display: inline-block;
+	margin: 20px;
+}
+.footer-url a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #848484;
 }
 @media screen and (max-width:992px) {
 	.video {
@@ -266,5 +306,11 @@ img {
 	}
 	.hand {
 		display: none;
+	}
+	.row-footer {
+		margin: ;
+	}
+	.footer-url {
+		margin: 10px;
 	}
 }
