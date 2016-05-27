@@ -1,0 +1,197 @@
+/* http://www.menucool.com/jquery-slider */
+
+#thumbnail-slider {
+    margin:0 auto; /*center-aligned*/
+    width:100%;/*width:400px;*/
+    padding:28px 0;
+    box-sizing:border-box;
+    position:relative;
+    -webkit-user-select: none;
+    user-select:none;
+}
+#thumbnail-slider div.inner {
+    /*the followings should not be changed */
+    position:relative;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+}
+
+ 
+#thumbnail-slider div.inner ul {
+    /*the followings should not be changed */
+    white-space:nowrap;
+    position:relative;
+    left:0; top:0;
+    list-style:none;
+    font-size:0;
+    padding:0;
+    margin:0 auto;
+    float:left!important;
+    width:auto!important;
+    height:auto!important;
+}
+
+#thumbnail-slider ul li {
+    display:inline-block;
+    *display:inline!important; /*IE7 hack*/
+    border:none;
+    margin:0;
+    margin:2.5px; /* Spacing between thumbs*/
+    transition:border-color 0.3s;
+    box-sizing:content-box;
+    text-align:center;
+    vertical-align:middle;
+    padding:0;
+    position:relative;
+    list-style:none;
+    backface-visibility:hidden;
+}
+
+#thumbnail-slider ul li.active {
+    border-color:white;
+}
+
+#thumbnail-slider .thumb {
+    opacity:1;
+    width:100%;
+    height: 100%;
+    background-repeat:no-repeat;
+    display:block;
+    position:absolute;
+    font-size:0;
+}
+.thumb1 {
+    background-position: -9px -8px;
+}
+.thumb2 {
+    background-position: -64px -8px;
+}
+.thumb3 {
+    background-position: -119px -8px;
+}
+.thumb4 {
+    background-position: -174px -8px;
+}
+.thumb5 {
+    background-position: -229px -8px;
+}
+.thumb6 {
+    background-position: -284px -8px;
+}
+.thumb7 {
+    background-position: -339px -8px;
+}
+.thumb8 {
+    background-position: -394px -8px;
+}
+.thumb9 {
+    background-position: -449px -8px;
+}
+.thumb10 {
+    background-position: -504px -8px;
+}
+.thumb11 {
+    background-position:-559px -8px;
+}
+.thumb12 {
+    background-position: -614px -8px;
+}
+.thumb13 {
+    background-position: -669px -8px;
+}
+.thumb14 {
+    background-position: -724px -8px;
+}
+.thumb15 {
+    background-position: -779px -8px;
+}
+.thumb16 {
+    background-position: -834px -8px;
+}
+.thumb17 {
+    background-position: -889px -8px;
+}
+.thumb18 {
+    background-position: -994px -8px;
+}
+.thumb19 {
+    background-position: -999px -8px;
+}
+.thumb20 {
+    background-position: -1054px -8px;
+}
+.thumb21 {
+    background-position: -1109px -8px;
+}
+/* --------- navigation controls ------- */
+/* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */
+
+#thumbnail-slider-pause-play {display:none;} /*.pause*/
+
+#thumbnail-slider-prev, #thumbnail-slider-next
+{
+    opacity:1;
+    position: absolute;
+    /*background-color:#0346a3;*/
+    *background-color:#ccc;/*IE7 hack*/
+    backface-visibility:hidden;
+    width:32px;
+    height:60px;
+    line-height:60px;
+    top: 50%;
+    margin:0;
+    margin-top:-30px;
+    color:white;    
+    z-index:10;
+    cursor:pointer;
+}
+
+#thumbnail-slider-prev {
+    left:-30px; right:auto;
+}
+
+#thumbnail-slider-next {
+    left:auto; right:-30px;
+}
+#thumbnail-slider-next.disabled, #thumbnail-slider-prev.disabled {
+    opacity:0.3;
+    cursor:default;
+}
+
+
+/* arrows */
+#thumbnail-slider-prev::before, #thumbnail-slider-next::before {
+    position: absolute;
+    top: 19px;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-left: 6px solid black;
+    border-top: 6px solid black;
+}
+
+#thumbnail-slider-prev::before {
+    left:7px;
+    -ms-transform:rotate(-45deg);/*IE9*/
+    -webkit-transform:rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#thumbnail-slider-next::before {
+    right:7px;
+    -ms-transform:rotate(135deg);/*IE9*/
+    -webkit-transform:rotate(135deg);
+    transform: rotate(135deg);
+}
+
+/*Responsive settings*/
+@media only screen and (max-width:736px){
+
+    #thumbnail-slider {padding:10px 26px;}
+
+    #thumbnail-slider-prev {left:0px;}
+
+    #thumbnail-slider-next {right:0px;}
+}
