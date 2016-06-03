@@ -207,10 +207,11 @@ a{
 	font-size: 16px;
 	color: #848484;
 	text-align: center;
+	height: 100%;
 }
 .social {
 	padding: 26px 0 60px;
-}
+} 
 .form-social {
 	text-align: center;
 }
